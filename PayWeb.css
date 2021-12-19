@@ -1,0 +1,273 @@
+#headcontainer {
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+     "f prod  "
+     ". prod  ";
+    margin-left: 20px;
+ }
+ #Offer {
+     width: 700px;
+     height:800px;
+     margin-left: 80px;
+     margin-top: 20px;
+     height: 500px;
+     grid-area :f;
+ }
+ #container {
+     margin: auto;
+     /* width: 55%; */
+     margin-left: 70px;
+     margin-top: 0px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap : 15px;
+     grid-area: prod;
+     height: 1000px;
+ }
+ #container > div {
+     border: 1px solid #dfe3e6;
+     padding-left: 20px;
+     font-family: Lato,sans-serif;
+     font-size: 16px;
+     color: #4f5856;
+     border-radius: 10px;
+     padding-bottom: 10px;
+     padding-top: 5px;
+     padding-right: 18px;
+     height: 400px;
+ }
+ #container > :nth-child(1n):hover{
+     border: 1px solid teal;
+     cursor: pointer;
+ }
+
+
+#btn {
+ margin-left: 70%;
+ margin-bottom: 20px;
+ border: 0px;
+ width: 35%;
+ height: 10%;
+ background-color: teal;
+ color: #dfe3e6;
+ border-radius: 8px;
+ cursor: pointer;
+}
+#containHeader{
+ display:flex;
+ width:100%;
+ height:120px;
+ background-color:#10847e;
+}
+#logo{
+ height:120px;
+ width:270px;
+ margin-left:20px;
+}
+#tabHead{
+ height:100%;
+ width:100%;
+}
+#searchHead{
+ /* height:45%; */
+ /* width:1200px; */
+ margin:auto;
+ margin-left: -10px;
+}
+ul{
+ display:flex;
+}
+li {
+ font-size:18px;
+ font-family:Open Sans,sans-serif;
+ margin-top:4px;
+ margin-left:25px;
+ list-style:none;
+ font-weight: 300;
+}
+li a{
+ text-decoration:none;
+ color:white;
+}
+li a::after{
+ content:'';
+ width:0;
+ height:3px;
+ background-color:white;
+ margin:auto;
+ display:block;
+}
+li a:hover::after{
+ width:100%;
+ transition: width 0.1s linear;
+}
+.keyHead{
+ color:white;
+ font-size:16px;
+ font-family:Open Sans,sans-serif;
+ margin-top:-4px;
+ margin-left:25px;
+ border:transparent;
+ background-color:transparent;
+}
+.PaySecureTxt{
+ margin-top:25px;
+ margin-left:800px;
+ font-size:18px;
+ color:white;
+ font-family:Open Sans,sans-serif;
+ font-style: italic;
+}
+#logo > img {
+ margin-top: 20px;
+ margin-left: 20px;
+}
+.rad {
+ display: flex;
+ /* justify-content: space-around; */
+}
+#Offer1-1{
+ width: 100%;
+ padding-left: 20px;
+ font-family: Lato,sans-serif;
+ color: #2c2c2c;
+ font-size: 16px;
+ line-height: 40px;
+ font-weight: 330;
+}
+#Offer1-1 > h2 {
+ font-size: 18px;
+}
+#filtername {
+ padding-left: 20px;
+}
+.OfferArr > ion-icon{
+ color:black;
+ margin-left: 200px;
+}
+.radio{
+ margin-right:10px;
+}
+.iconImg > img{
+ height:40px;
+}
+.boxChkOut{
+ height:1500px;
+ width:600px;
+ margin-left:50px;
+ margin-top:50px;  
+}
+.payChkOut{
+ height:30%;
+ width:85%;
+ margin-left:50px;
+}
+.addChkOut{
+ height:60%;
+ width:85%;
+ margin-top:30px;
+ margin-left:40px;
+}
+.PharmWallet{
+ display:flex;
+ height:90px;
+ width:80%;
+ margin:auto;
+ background-color:#f2fff8;
+ border-radius:15px;
+}
+.imgWall{
+ height:50%;
+ width:15%;
+ margin-top:25px;
+ margin-left:25px;
+}
+.fromWallet{
+ margin-top:15px;
+}
+.txtTagPW{
+ font-weight:bold;
+ font-family: Open Sans,sans-serif;
+ margin-left:35px;
+ line-height:15px;
+}
+.TCApp{
+ color:#322f94;
+ font-family: Open Sans,sans-serif;
+ margin-left:35px;
+ text-decoration: underline;
+}
+.chkbx{
+ width:20px;
+ height:20px;
+ margin-left:80px;
+}
+.CartChkOut{
+ font-family: Open Sans,sans-serif;
+ margin-top:10px;
+ padding:10px;
+}
+.CartChkOut > p{
+ font-size:18px;
+}
+.CartChkOut > h3{
+ font-size:20px;
+ color:#8c9fad;
+}
+.CartChkOut > h4{
+ font-size:18px;
+}
+.savedTag{
+ display:flex;
+ height:50px;
+ width:80%;
+ margin:auto;
+ background-color:#f2fff8;
+ border-radius:15px;
+ border: 2px dashed teal;
+ padding:20px;
+}
+.savedTag>p{
+ font-family: Open Sans,sans-serif;
+ font-size:18px;
+ color:teal;
+ margin-left:25px;
+}
+.addChkOut{
+ font-family: Open Sans,sans-serif;
+ padding:20px;
+}
+#inputAddDet{
+ height:35px;
+ width:350px;
+ border-radius:10px;
+ margin-left:25px;
+ font-family: Open Sans,sans-serif;
+ color:#10847e;
+ font-size:20px;
+}
+#AddDetSave{
+ color:#959595;
+ font-size:15px;
+}
+#AddDetSave>label{
+ margin-left:25px;
+ font-weight:bold;
+}
+#AddDetSave>p{
+ margin-left:25px;
+}
+#AddTyp{
+ margin-left:30px;
+}
+#SaveAdd{
+ height:40px;
+ width:250px;
+ border-radius:10px;
+ margin-left:20%;
+ background-color: teal;
+ font-size:18px;
+ font-family: Open Sans,sans-serif;
+ color:white;
+}

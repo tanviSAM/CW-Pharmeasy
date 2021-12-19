@@ -1,0 +1,50 @@
+
+    body{
+      margin:0px;
+      padding:0px;
+      background-color:white;
+    }
+    .containBrand{
+      display:flex;
+      height:50px;
+      width:90%;
+      background-color:transaprent;
+    }
+    .FBrandHead{
+        height:40px;
+        width:80%;
+        margin:auto;
+        font-family:Open Sans,sans-serif;
+        font-size:25px;
+        margin-left:160px;
+        color:black;
+      }
+    .arrowBu{
+        height:40px;
+        width:15%;
+        margin:auto;
+    }
+    .slider{
+        width: 80%;
+        margin:auto;
+        display:flex;
+        padding:10px;
+    }
+    
+    .sliderProd{
+      width:160px;
+      height:220px;
+      margin:8px;
+     
+    }
+    
+    .slide-img img{
+      width:100%;
+      height:100%;
+      border-radius:10px;
+      object-fit:cover;
+      box-sizing:box-border;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    
+    
